@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+<main>
+    <h1>Welcome to the Wall!</h1>
+    <h4>Register</h4>
+    <form action="">
+        <label for="first_name">First Name: </label>
+        <input type="text" name="first_name">
+        <label for="last_name">Last Name: </label>
+        <input type="text" name="last_name">
+        <label for="email">email: </label>
+        <input type="text" name="email">
+        <label for="password">password: </label>
+        <input type="password" name="password">
+        <label for="confirm">confirm: </label>
+        <input type="password" name="confirm_pw">
+        <input type="submit" value="register">
+    </form>
+    <h4>Login</h4>
+    <form action="">
+        <label for="email">email:</label>
+        <input type="text" name="email">
+        <label for="password">password:</label>
+        <input type="password" name="password">
+        <input type="submit" value="login">
+    </form>
+</main>
+{% endblock %}

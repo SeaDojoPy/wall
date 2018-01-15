@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+<main>
+    <h1>This is the User page</h1>
+    <form action="">
+        <label for="message">Send a Message:</label>
+        <input type="text" name="message">
+        <input type="submit" value="Message!">
+    </form>
+    <h4>Messages</h4>
+    <ul>
+        <!-- going to want a list of messages to easily iterate through here -->
+        <li>
+            <h6>The Date</h6>
+            <p>This is the Message That I posted</p>
+        </li>
+    </ul>
+</main>
+{% endblock %}
